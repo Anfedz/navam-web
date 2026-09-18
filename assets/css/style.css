@@ -187,10 +187,10 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   color: #fff;
-  padding: 110px 0 90px;
+  padding: 150px 0 130px;
   background-color: var(--green-dark);
   background-size: cover;
-  background-position: center 20%;
+  background-position: center 32%;
   overflow: hidden;
 }
 
