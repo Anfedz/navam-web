@@ -90,8 +90,17 @@
 
   <section id="quienes-somos" class="section">
     <div class="container about-grid">
-      <div class="about-media">
-        <img src="assets/img/equipo-navam.jpg" alt="Equipo NAVAM">
+      <div class="about-media carousel" id="about-carousel">
+        <div class="carousel-track">
+          <img src="assets/img/equipo-navam.jpg" alt="Equipo NAVAM" class="carousel-slide active">
+          <img src="assets/img/oficina-navam-vertical.jpg" alt="Equipo NAVAM en la oficina principal" class="carousel-slide">
+        </div>
+        <button class="carousel-arrow carousel-prev" aria-label="Foto anterior">‹</button>
+        <button class="carousel-arrow carousel-next" aria-label="Foto siguiente">›</button>
+        <div class="carousel-dots">
+          <button class="carousel-dot active" aria-label="Foto 1"></button>
+          <button class="carousel-dot" aria-label="Foto 2"></button>
+        </div>
       </div>
       <div>
         <h2>Quiénes somos</h2>
