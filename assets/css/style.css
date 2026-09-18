@@ -453,6 +453,21 @@ a.card:hover {
   font-size: 0.9rem;
 }
 
+.video-wrap {
+  margin: 32px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrap video {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 9 / 16;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+  background: #000;
+}
+
 /* Noticias */
 .news-item {
   margin-bottom: 48px;
